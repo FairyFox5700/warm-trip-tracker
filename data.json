@@ -31,7 +31,7 @@
       "room_type": "Standard 16 Bed Mixed Dorm",
       "outbound": "FR7062 \u00b7 17:55\u201321:40",
       "return": "FR7063 \u00b7 20:35\u201322:30",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Faro",
@@ -64,7 +64,7 @@
       "room_type": "Standard Double Bed Private Shared Bathroom",
       "outbound": "FR7030 \u00b7 07:00\u201309:55",
       "return": "FR7031 \u00b7 06:25\u201309:25",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Malta",
@@ -97,7 +97,7 @@
       "room_type": "Standard 6 Bed Mixed Dorm Ensuite",
       "outbound": "FR7235 \u00b7 05:55\u201310:35",
       "return": "FR7236 \u00b7 10:50\u201313:45",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Seville",
@@ -130,7 +130,7 @@
       "room_type": "Basic 8 Bed Mixed Dorm Ensuite",
       "outbound": "FR2703 \u00b7 14:10\u201318:00",
       "return": "FR2702 \u00b7 22:15\u201300:10",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Lisbon",
@@ -163,7 +163,7 @@
       "room_type": "Standard Double Bed Private Shared Bathroom",
       "outbound": "FR7138 \u00b7 17:15\u201320:05",
       "return": "FR673 \u00b7 20:15\u201323:05",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Alcal\u00e1, Tenerife",
@@ -196,7 +196,7 @@
       "room_type": "Standard Single Private Shared Bathroom",
       "outbound": "FR5557 \u00b7 06:25\u201310:45",
       "return": "FR7120 \u00b7 11:50\u201316:10",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "M\u00e1laga",
@@ -229,7 +229,7 @@
       "room_type": "Standard 10 Bed Mixed Dorm",
       "outbound": "FR7044 \u00b7 18:35\u201322:35",
       "return": "FR7045 \u00b7 20:45\u201322:55",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Porto",
@@ -262,7 +262,7 @@
       "room_type": "Basic 6 Bed Mixed Dorm",
       "outbound": "FR7078 \u00b7 18:55\u201321:20",
       "return": "FR7073 \u00b7 09:10\u201311:35",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Las Palmas, Gran Canaria",
@@ -295,7 +295,7 @@
       "room_type": "Standard 12 Bed Mixed Dorm",
       "outbound": "FR94 \u00b7 15:40\u201320:00",
       "return": "FR7127 \u00b7 10:50\u201315:10",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Arrecife, Lanzarote",
@@ -328,7 +328,7 @@
       "room_type": "Basic 4 Bed Female Dorm",
       "outbound": "FR7124 \u00b7 06:00\u201310:10",
       "return": "FR7200 \u00b7 07:10\u201311:20",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     },
     {
       "destination": "Valencia",
@@ -361,9 +361,9 @@
       "room_type": "Basic 12 Bed Mixed Dorm",
       "outbound": "FR1740 \u00b7 20:50\u201300:30",
       "return": "FR1739 \u00b7 10:30\u201312:20",
-      "checked_at": "2026-10-16T20:44:45+00:00"
+      "checked_at": "2026-10-16T20:45:39+00:00"
     }
   ],
   "source_errors": [],
-  "checked_at": "2026-10-16T20:44:45+00:00"
+  "checked_at": "2026-10-16T20:45:39+00:00"
 }
