@@ -30,7 +30,7 @@
       "room_type": "Standard 16 Bed Mixed Dorm",
       "outbound": "FR7062 \u00b7 17:55\u201321:40",
       "return": "FR7063 \u00b7 20:35\u201322:30",
-      "checked_at": "2026-10-16T11:59:48+00:00"
+      "checked_at": "2026-10-16T12:01:09+00:00"
     },
     {
       "destination": "M\u00e1laga",
@@ -62,7 +62,7 @@
       "room_type": "Standard 10 Bed Mixed Dorm",
       "outbound": "FR7044 \u00b7 18:35\u201322:35",
       "return": "FR7045 \u00b7 20:45\u201322:55",
-      "checked_at": "2026-10-16T11:59:48+00:00"
+      "checked_at": "2026-10-16T12:01:09+00:00"
     },
     {
       "destination": "Arrecife, Lanzarote",
@@ -94,9 +94,9 @@
       "room_type": "Basic 4 Bed Female Dorm",
       "outbound": "FR7124 \u00b7 06:00\u201310:10",
       "return": "FR7200 \u00b7 07:10\u201311:20",
-      "checked_at": "2026-10-16T11:59:48+00:00"
+      "checked_at": "2026-10-16T12:01:09+00:00"
     }
   ],
   "source_errors": [],
-  "checked_at": "2026-10-16T11:59:48+00:00"
+  "checked_at": "2026-10-16T12:01:09+00:00"
 }
