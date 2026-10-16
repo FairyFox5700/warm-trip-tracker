@@ -17,7 +17,7 @@ A public, zero-secret tracker for warm trips from Dublin under **€200 total** 
 There are two automation layers:
 
 1. **Hermes local monitor** — runs daily at 08:00 local time for 45 bounded checks. It scans the wider October–November window, compares exact fares and matching stays, suppresses duplicates, and reports only verified deals or material improvements. It never books anything.
-2. **GitHub Actions public validator** — runs daily at 08:10 UTC and revalidates every configured Alicante, Málaga, and Lanzarote candidate through the public Ryanair and Hostelworld availability endpoints. It rejects over-budget, cold, unavailable, duplicate, or low-rated options; isolates source failures; ranks every qualifying deal; and regenerates `data.json` plus `index.html`. The public page shows all verified deals, with the best overall value highlighted first.
+2. **GitHub Actions public validator** — runs daily at 08:10 UTC and revalidates every configured candidate across Alicante, Málaga, Lanzarote, Faro, Seville, Lisbon, Porto, Valencia, Malta, Tenerife, and Gran Canaria through the public Ryanair and Hostelworld availability endpoints. It rejects over-budget, cold, unavailable, duplicate, or low-rated options; adds known mandatory city taxes; isolates source failures; ranks every qualifying deal; and regenerates `data.json` plus `index.html`. The public page shows all verified deals, with the best overall value highlighted first.
 
 GitHub Pages publishes the current generated dashboard. Prices are observations, not reservations.
 

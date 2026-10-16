@@ -29,14 +29,15 @@ def parse_ryanair(outbound: dict[str, Any], inbound: dict[str, Any]) -> dict[str
 
 
 def parse_hostelworld(data: dict[str, Any], minimum_score: float, review_score: float) -> dict[str, Any] | None:
+    if review_score < minimum_score:
+        return None
     candidates: list[dict[str, Any]] = []
     for room in data.get("rooms", {}).get("privates", []):
         if room.get("totalRoomsAvailable", 0) or room.get("totalBedsAvailable", 0):
             candidates.append({"room": room, "private": True})
-    if review_score >= minimum_score:
-        for room in data.get("rooms", {}).get("dorms", []):
-            if room.get("totalBedsAvailable", 0):
-                candidates.append({"room": room, "private": False})
+    for room in data.get("rooms", {}).get("dorms", []):
+        if room.get("totalBedsAvailable", 0):
+            candidates.append({"room": room, "private": False})
     priced = []
     for item in candidates:
         totals = item["room"].get("totalPrice", [])
@@ -63,7 +64,8 @@ def choose_qualifying_deals(candidates: list[dict[str, Any]], budget: float) -> 
         flight = candidate.get("flight")
         if not stay or not flight or candidate.get("typical_high_c", 0) < 18:
             continue
-        total = round(flight["total_eur"] + stay["total_eur"], 2)
+        mandatory_tax = round(float(candidate.get("mandatory_tax_eur", 0)), 2)
+        total = round(flight["total_eur"] + stay["total_eur"] + mandatory_tax, 2)
         if total > budget:
             continue
         deal = {
@@ -72,6 +74,7 @@ def choose_qualifying_deals(candidates: list[dict[str, Any]], budget: float) -> 
             "stay_total_eur": stay["total_eur"],
             "combined_total_eur": total,
             "budget_headroom_eur": round(budget - total, 2),
+            "mandatory_tax_eur": mandatory_tax,
             "room_type": stay["room_type"],
             "outbound": flight["outbound"],
             "return": flight["return"],
@@ -104,7 +107,7 @@ def render_index(deals: list[dict[str, Any]], source_errors: list[dict[str, str]
 <div class="row"><span>Direct Ryanair return</span><strong>€{deal['flight_total_eur']:.2f}</strong></div>
 <div class="row"><span>{escape(deal['property'])} · {deal['review_score']}/10</span><strong>€{deal['stay_total_eur']:.2f}</strong></div>
 <div class="row"><span>Total</span><span class="price">€{deal['combined_total_eur']:.2f}</span></div>
-<div class="bar"><span style="width:{used}%"></span></div><p class="muted">€{deal['budget_headroom_eur']:.2f} below budget · {deal['typical_high_c']}°C typical high</p>
+<div class="bar"><span style="width:{used}%"></span></div><p class="muted">€{deal['budget_headroom_eur']:.2f} below budget · {deal['typical_high_c']}°C typical high{f" · €{deal['mandatory_tax_eur']:.2f} mandatory tax included" if deal.get('mandatory_tax_eur') else ""}</p>
 <details><summary>Times, room and booking links</summary><p><strong>Outbound:</strong> {escape(deal['outbound'])}<br><strong>Return:</strong> {escape(deal['return'])}</p><p>{escape(deal['room_type'])}</p><a href="{escape(deal['flight_url'])}">Check flights</a> · <a href="{escape(deal['stay_url'])}">Check accommodation</a></details></article>''')
     errors_note = f'<p class="muted">{len(source_errors)} source check(s) failed without hiding valid deals.</p>' if source_errors else ""
     checked_at = escape(deals[0]["checked_at"])

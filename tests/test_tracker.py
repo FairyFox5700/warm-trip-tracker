@@ -33,6 +33,21 @@ class TrackerTests(unittest.TestCase):
         stay = {"rooms": {"dorms": [{"name": "Dorm", "totalBedsAvailable": 2, "totalPrice": [{"price": {"value": "50", "currency": "EUR"}}]}], "privates": []}}
         self.assertIsNone(parse_hostelworld(stay, minimum_score=8.0, review_score=7.9))
 
+    def test_rejects_private_room_below_minimum_review_score(self):
+        stay = {"rooms": {"dorms": [], "privates": [{"name": "Private", "totalRoomsAvailable": 1, "totalPrice": [{"price": {"value": "70", "currency": "EUR"}}]}]}}
+        self.assertIsNone(parse_hostelworld(stay, minimum_score=8.0, review_score=7.1))
+
+    def test_known_mandatory_tax_is_included_in_budget_total(self):
+        candidate = {
+            "destination": "Lisbon", "dates": "21–24 Nov", "property": "Gambori",
+            "flight": {"total_eur": 50.0, "outbound": "OUT", "return": "BACK"},
+            "accommodation": {"total_eur": 90.0, "room_type": "Private"},
+            "mandatory_tax_eur": 12.0, "typical_high_c": 18.1, "utility_score": 8.0,
+        }
+        deals = choose_qualifying_deals([candidate], budget=200)
+        self.assertEqual(152.0, deals[0]["combined_total_eur"])
+        self.assertEqual(12.0, deals[0]["mandatory_tax_eur"])
+
     def test_returns_all_qualifying_deals_ranked_and_deduplicated(self):
         flight = {"total_eur": 50.0, "outbound": "OUT", "return": "BACK"}
         stay = {"total_eur": 80.0, "room_type": "Dorm"}
