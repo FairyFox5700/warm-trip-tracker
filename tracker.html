@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<style>
+  *{box-sizing:border-box} body{color:var(--foreground);font-family:inherit}
+  .wrap{width:720px;padding:2px}.head{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:14px}
+  h1{font-size:22px;line-height:1.2;margin:0 0 5px}.muted{color:var(--muted-foreground);font-size:13px}.budget{font-size:26px;font-weight:750;color:var(--accent);white-space:nowrap}
+  .grid{display:grid;grid-template-columns:1.3fr .7fr;gap:12px}.card{border:1px solid var(--border);border-radius:14px;padding:15px;background:var(--card)}
+  .eyebrow{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted-foreground);margin-bottom:8px}.place{font-size:24px;font-weight:760}.dates{font-size:14px;margin-top:3px}
+  .row{display:flex;justify-content:space-between;gap:14px;padding:10px 0;border-bottom:1px solid var(--border);font-size:14px}.row:last-child{border-bottom:0;padding-bottom:0}.val{font-weight:700;text-align:right}
+  .total{font-size:21px;color:var(--accent)}.pill{display:inline-block;border:1px solid var(--border);border-radius:999px;padding:5px 9px;font-size:12px;margin:4px 4px 0 0}
+  .progress{height:9px;border-radius:99px;background:color-mix(in srgb,var(--border) 65%,transparent);overflow:hidden;margin:11px 0 7px}.bar{width:73.58%;height:100%;background:var(--accent)}
+  .note{margin-top:12px;padding:12px 14px;border-left:3px solid var(--accent);font-size:13px;color:var(--muted-foreground)}
+  .actions{display:flex;gap:9px;margin-top:13px}button,a.btn{border:1px solid var(--border);border-radius:9px;padding:8px 11px;color:var(--foreground);background:var(--card);font:inherit;font-size:13px;text-decoration:none;cursor:pointer}.primary{background:var(--accent)!important;color:var(--card)!important;border-color:var(--accent)!important}
+  @media(max-width:620px){.wrap{width:100%}.grid{grid-template-columns:1fr}.head{display:block}.budget{margin-top:8px}}
+</style>
+</head>
+<body><main class="wrap">
+  <div class="head"><div><h1>Warm trip tracker</h1><div class="muted">Dublin · 1 traveller · 3–5 nights · through 30 Nov 2026</div></div><div><div class="muted">Maximum total</div><div class="budget">€200</div></div></div>
+  <section class="grid">
+    <article class="card">
+      <div class="eyebrow">Verified live deal · best value</div>
+      <div class="place">Alicante</div><div class="dates">16–21 November · 5 nights · utility 8.57/10</div>
+      <div class="row"><span>Direct Ryanair return</span><span class="val">€60.17</span></div>
+      <div class="row"><span>VAD Hostel dorm · 9.5/10</span><span class="val">€87.00</span></div>
+      <div class="row"><span>Verified combined total</span><span class="val total">€147.17</span></div>
+      <div class="progress"><div class="bar"></div></div><div class="muted">€52.83 below budget · taxes included</div>
+    </article>
+    <aside class="card"><div class="eyebrow">Watch rules</div>
+      <span class="pill">18°C+ typical high</span><span class="pill">Direct only</span><span class="pill">Private preferred</span><span class="pill">Dorm ≥8.0 allowed</span><span class="pill">Personal item</span>
+      <div class="row"><span>Typical November high</span><span class="val">20.5°C</span></div><div class="row"><span>Last checked</span><span class="val">16 Oct · 11:54</span></div><div class="row"><span>Automation</span><span class="val">Daily 08:00</span></div>
+    </aside>
+  </section>
+  <div class="note"><strong>Exact inventory verified.</strong> FR7062 departs Dublin 17:55 and arrives Alicante 21:40; FR7063 returns 20:35–22:30. VAD Hostel showed 10 beds in a Standard 16 Bed Mixed Dorm for €87 total, taxes included, with free cancellation through 10 November. One under-seat bag is included. Transfers, meals, larger baggage, seats and possible card fees are excluded; nothing is reserved.</div>
+  <div class="actions"><button class="primary" data-hermes-send="Check my warm-trip price tracker now, verify an exact live deal, and update the tracker widget at C:\\Users\\tysch\\Documents\\Warm Trip Tracker\\tracker.html.">Check now</button><a class="btn" href="https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ALC&isReturn=true&departureDateFrom=2026-11-16&departureDateTo=2026-11-16&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200" target="_blank">Flight source</a><a class="btn" href="https://www.hostelworld.com/hostels/p/317558/vad-hostel-alicante/?from=2026-11-16&to=2026-11-21&guests=1&currency=EUR" target="_blank">Stay source</a></div>
+</main></body></html>

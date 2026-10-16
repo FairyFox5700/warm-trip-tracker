@@ -1,0 +1,45 @@
+{
+  "budget_eur": 200,
+  "minimum_dorm_score": 8.0,
+  "candidates": [
+    {
+      "destination": "Alicante",
+      "dates": "16–21 November · 5 nights",
+      "property": "VAD Hostel Alicante",
+      "review_score": 9.5,
+      "typical_high_c": 20.5,
+      "utility_score": 8.57,
+      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=ALC&outboundDepartureDateFrom=2026-11-16&outboundDepartureDateTo=2026-11-16&currency=EUR",
+      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=ALC&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-21&outboundDepartureDateTo=2026-11-21&currency=EUR",
+      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/317558/availability/?date-start=2026-11-16&num-nights=5&number-of-guests=1&application=web&currency=EUR",
+      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ALC&isReturn=true&departureDateFrom=2026-11-16&departureDateTo=2026-11-16&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200",
+      "stay_url": "https://www.hostelworld.com/hostels/p/317558/vad-hostel-alicante/?from=2026-11-16&to=2026-11-21&guests=1&currency=EUR"
+    },
+    {
+      "destination": "Málaga",
+      "dates": "18–21 November · 3 nights",
+      "property": "The Lights Hostel",
+      "review_score": 8.7,
+      "typical_high_c": 20.1,
+      "utility_score": 7.95,
+      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=AGP&outboundDepartureDateFrom=2026-11-18&outboundDepartureDateTo=2026-11-18&currency=EUR",
+      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=AGP&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-21&outboundDepartureDateTo=2026-11-21&currency=EUR",
+      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/90359/availability/?date-start=2026-11-18&num-nights=3&number-of-guests=1&application=web&currency=EUR",
+      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=AGP&isReturn=true&departureDateFrom=2026-11-18&departureDateTo=2026-11-18&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200",
+      "stay_url": "https://www.hostelworld.com/pwa/hosteldetails.php/The-Lights-Hostel/Malaga/90359?from=2026-11-18&to=2026-11-21&guests=1&currency=EUR"
+    },
+    {
+      "destination": "Arrecife, Lanzarote",
+      "dates": "24–28 November · 4 nights",
+      "property": "La Casita de Arrecife",
+      "review_score": 10.0,
+      "typical_high_c": 24.2,
+      "utility_score": 7.71,
+      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=ACE&outboundDepartureDateFrom=2026-11-24&outboundDepartureDateTo=2026-11-24&currency=EUR",
+      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=ACE&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-28&outboundDepartureDateTo=2026-11-28&currency=EUR",
+      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/339617/availability/?date-start=2026-11-24&num-nights=4&number-of-guests=1&application=web&currency=EUR",
+      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ACE&isReturn=true&departureDateFrom=2026-11-24&departureDateTo=2026-11-24&returnDateFrom=2026-11-28&returnDateTo=2026-11-28&budget=200",
+      "stay_url": "https://www.hostelworld.com/pwa/hosteldetails.php/La-Casita-de-Arrecife/Arrecife/339617?from=2026-11-24&to=2026-11-28&guests=1&currency=EUR"
+    }
+  ]
+}

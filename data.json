@@ -1,0 +1,33 @@
+{
+  "destination": "Alicante",
+  "dates": "16\u201321 November \u00b7 5 nights",
+  "property": "VAD Hostel Alicante",
+  "review_score": 9.5,
+  "typical_high_c": 20.5,
+  "utility_score": 8.57,
+  "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=ALC&outboundDepartureDateFrom=2026-11-16&outboundDepartureDateTo=2026-11-16&currency=EUR",
+  "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=ALC&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-21&outboundDepartureDateTo=2026-11-21&currency=EUR",
+  "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/317558/availability/?date-start=2026-11-16&num-nights=5&number-of-guests=1&application=web&currency=EUR",
+  "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ALC&isReturn=true&departureDateFrom=2026-11-16&departureDateTo=2026-11-16&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200",
+  "stay_url": "https://www.hostelworld.com/hostels/p/317558/vad-hostel-alicante/?from=2026-11-16&to=2026-11-21&guests=1&currency=EUR",
+  "flight": {
+    "total_eur": 60.17,
+    "outbound": "FR7062 \u00b7 17:55\u201321:40",
+    "return": "FR7063 \u00b7 20:35\u201322:30"
+  },
+  "accommodation": {
+    "total_eur": 87.0,
+    "room_type": "Standard 16 Bed Mixed Dorm",
+    "availability": 10,
+    "cancellation": "If you cancel your booking before 23:59 10th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 10th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
+  },
+  "flight_total_eur": 60.17,
+  "stay_total_eur": 87.0,
+  "combined_total_eur": 147.17,
+  "budget_headroom_eur": 52.83,
+  "room_type": "Standard 16 Bed Mixed Dorm",
+  "outbound": "FR7062 \u00b7 17:55\u201321:40",
+  "return": "FR7063 \u00b7 20:35\u201322:30",
+  "checked_at": "2026-10-16T10:18:46+00:00",
+  "source_errors": []
+}
