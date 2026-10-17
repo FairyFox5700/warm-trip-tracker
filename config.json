@@ -83,20 +83,6 @@
       "stay_url": "https://www.hostelworld.com/hostels/p/340870/lisbon-gambori/?from=2026-11-21&to=2026-11-24&guests=1&currency=EUR"
     },
     {
-      "destination": "Porto",
-      "dates": "30 October–3 November · 4 nights",
-      "property": "Republica Boutique Hostel",
-      "review_score": 8.5,
-      "typical_high_c": 18.8,
-      "utility_score": 7.88,
-      "mandatory_tax_eur": 12.0,
-      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=OPO&outboundDepartureDateFrom=2026-10-30&outboundDepartureDateTo=2026-10-30&currency=EUR",
-      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=OPO&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-03&outboundDepartureDateTo=2026-11-03&currency=EUR",
-      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/338091/availability/?date-start=2026-10-30&num-nights=4&number-of-guests=1&application=web&currency=EUR",
-      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=OPO&isReturn=true&departureDateFrom=2026-10-30&departureDateTo=2026-10-30&returnDateFrom=2026-11-03&returnDateTo=2026-11-03&budget=200",
-      "stay_url": "https://www.hostelworld.com/hostels/p/338091/republica-boutique-hostel/?from=2026-10-30&to=2026-11-03&guests=1&currency=EUR"
-    },
-    {
       "destination": "Valencia",
       "dates": "23–26 November · 3 nights",
       "property": "River Hostel",

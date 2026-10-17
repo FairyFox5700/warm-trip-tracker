@@ -232,39 +232,6 @@
       "checked_at": "2026-10-17T12:09:19+00:00"
     },
     {
-      "destination": "Porto",
-      "dates": "30 October\u20133 November \u00b7 4 nights",
-      "property": "Republica Boutique Hostel",
-      "review_score": 8.5,
-      "typical_high_c": 18.8,
-      "utility_score": 7.88,
-      "mandatory_tax_eur": 12.0,
-      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=OPO&outboundDepartureDateFrom=2026-10-30&outboundDepartureDateTo=2026-10-30&currency=EUR",
-      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=OPO&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-03&outboundDepartureDateTo=2026-11-03&currency=EUR",
-      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/338091/availability/?date-start=2026-10-30&num-nights=4&number-of-guests=1&application=web&currency=EUR",
-      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=OPO&isReturn=true&departureDateFrom=2026-10-30&departureDateTo=2026-10-30&returnDateFrom=2026-11-03&returnDateTo=2026-11-03&budget=200",
-      "stay_url": "https://www.hostelworld.com/hostels/p/338091/republica-boutique-hostel/?from=2026-10-30&to=2026-11-03&guests=1&currency=EUR",
-      "flight": {
-        "total_eur": 94.33,
-        "outbound": "FR7078 \u00b7 18:55\u201321:20",
-        "return": "FR7073 \u00b7 09:10\u201311:35"
-      },
-      "accommodation": {
-        "total_eur": 51.45,
-        "room_type": "Basic 6 Bed Mixed Dorm",
-        "availability": 11,
-        "cancellation": "If you cancel your booking before 23:59 26th Oct 2026 (WET) your deposit will be refunded to your payment card. If you cancel after 23:59 26th Oct 2026 (WET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
-      },
-      "flight_total_eur": 94.33,
-      "stay_total_eur": 51.45,
-      "combined_total_eur": 157.78,
-      "budget_headroom_eur": 42.22,
-      "room_type": "Basic 6 Bed Mixed Dorm",
-      "outbound": "FR7078 \u00b7 18:55\u201321:20",
-      "return": "FR7073 \u00b7 09:10\u201311:35",
-      "checked_at": "2026-10-17T12:09:19+00:00"
-    },
-    {
       "destination": "Las Palmas, Gran Canaria",
       "dates": "23\u201326 November \u00b7 3 nights",
       "property": "Las Palmas Nest Hostel",

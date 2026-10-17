@@ -1,0 +1,25 @@
+{
+  "archived_deals": [
+    {
+      "destination": "Porto",
+      "dates": "30 October–3 November · 4 nights",
+      "property": "Republica Boutique Hostel",
+      "review_score": 8.5,
+      "typical_high_c": 18.8,
+      "utility_score": 7.88,
+      "mandatory_tax_eur": 12.0,
+      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=OPO&isReturn=true&departureDateFrom=2026-10-30&departureDateTo=2026-10-30&returnDateFrom=2026-11-03&returnDateTo=2026-11-03&budget=200",
+      "stay_url": "https://www.hostelworld.com/hostels/p/338091/republica-boutique-hostel/?from=2026-10-30&to=2026-11-03&guests=1&currency=EUR",
+      "flight_total_eur": 94.33,
+      "stay_total_eur": 51.45,
+      "combined_total_eur": 157.78,
+      "budget_headroom_eur": 42.22,
+      "room_type": "Basic 6 Bed Mixed Dorm",
+      "outbound": "FR7078 · 18:55–21:20",
+      "return": "FR7073 · 09:10–11:35",
+      "checked_at": "2026-10-17T12:09:19+00:00",
+      "archived_at": "2026-10-17T21:39:06+02:00",
+      "archive_reason": "October-dated trip removed from active monitoring"
+    }
+  ]
+}

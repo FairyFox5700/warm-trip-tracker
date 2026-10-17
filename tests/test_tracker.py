@@ -7,6 +7,17 @@ from monitor import choose_best_deal, choose_qualifying_deals, parse_hostelworld
 
 
 class TrackerTests(unittest.TestCase):
+    def test_archived_october_deal_is_removed_from_active_monitoring(self):
+        root = Path(__file__).resolve().parents[1]
+        config = json.loads((root / "config.json").read_text(encoding="utf-8"))
+        archive = json.loads((root / "archive.json").read_text(encoding="utf-8"))
+        active_destinations = [item["destination"] for item in config["candidates"]]
+        archived = archive["archived_deals"][0]
+
+        self.assertNotIn("Porto", active_destinations)
+        self.assertEqual("30 October–3 November · 4 nights", archived["dates"])
+        self.assertEqual(157.78, archived["combined_total_eur"])
+
     def test_combines_exact_flight_and_whole_stay_total(self):
         outbound = {
             "fares": [{"outbound": {"departureDate": "2026-11-16T17:55:00", "arrivalDate": "2026-11-16T21:40:00", "flightNumber": "FR7062", "price": {"value": 20.99, "currencyCode": "EUR"}}}]
