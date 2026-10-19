@@ -13,7 +13,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ALC&isReturn=true&departureDateFrom=2026-11-16&departureDateTo=2026-11-16&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/317558/vad-hostel-alicante/?from=2026-11-16&to=2026-11-21&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 61.18,
+        "total_eur": 59.58,
         "outbound": "FR261 \u00b7 06:25\u201310:10",
         "return": "FR7063 \u00b7 20:35\u201322:30"
       },
@@ -23,48 +23,15 @@
         "availability": 8,
         "cancellation": "If you cancel your booking before 23:59 10th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 10th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 61.18,
+      "flight_total_eur": 59.58,
       "stay_total_eur": 100.0,
-      "combined_total_eur": 161.18,
-      "budget_headroom_eur": 38.82,
+      "combined_total_eur": 159.58,
+      "budget_headroom_eur": 40.42,
       "mandatory_tax_eur": 0.0,
       "room_type": "Standard 16 Bed Mixed Dorm",
       "outbound": "FR261 \u00b7 06:25\u201310:10",
       "return": "FR7063 \u00b7 20:35\u201322:30",
-      "checked_at": "2026-10-18T12:35:16+00:00"
-    },
-    {
-      "destination": "Faro",
-      "dates": "15\u201318 November \u00b7 3 nights",
-      "property": "Greenth Avenue",
-      "review_score": 9.8,
-      "typical_high_c": 19.4,
-      "utility_score": 8.4,
-      "mandatory_tax_eur": 3.0,
-      "outbound_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=DUB&arrivalAirportIataCode=FAO&outboundDepartureDateFrom=2026-11-15&outboundDepartureDateTo=2026-11-15&currency=EUR",
-      "return_api": "https://services-api.ryanair.com/farfnd/v4/oneWayFares?departureAirportIataCode=FAO&arrivalAirportIataCode=DUB&outboundDepartureDateFrom=2026-11-18&outboundDepartureDateTo=2026-11-18&currency=EUR",
-      "stay_api": "https://prod.apigee.hostelworld.com/legacy-hwapi-service/2.2/properties/330693/availability/?date-start=2026-11-15&num-nights=3&number-of-guests=1&application=web&currency=EUR",
-      "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=FAO&isReturn=true&departureDateFrom=2026-11-15&departureDateTo=2026-11-15&returnDateFrom=2026-11-18&returnDateTo=2026-11-18&budget=200",
-      "stay_url": "https://www.hostelworld.com/bed-and-breakfasts/p/330693/greenth-avenue/?from=2026-11-15&to=2026-11-18&guests=1&currency=EUR",
-      "flight": {
-        "total_eur": 42.98,
-        "outbound": "FR7030 \u00b7 07:00\u201309:55",
-        "return": "FR7031 \u00b7 06:25\u201309:25"
-      },
-      "accommodation": {
-        "total_eur": 153.4,
-        "room_type": "Standard Double Bed Private Shared Bathroom",
-        "availability": 4,
-        "cancellation": "If you cancel your booking before 23:59 11th Nov 2026 (WET) your deposit will be refunded to your payment card. If you cancel after 23:59 11th Nov 2026 (WET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
-      },
-      "flight_total_eur": 42.98,
-      "stay_total_eur": 153.4,
-      "combined_total_eur": 199.38,
-      "budget_headroom_eur": 0.62,
-      "room_type": "Standard Double Bed Private Shared Bathroom",
-      "outbound": "FR7030 \u00b7 07:00\u201309:55",
-      "return": "FR7031 \u00b7 06:25\u201309:25",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Malta",
@@ -80,7 +47,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=MLA&isReturn=true&departureDateFrom=2026-11-23&departureDateTo=2026-11-23&returnDateFrom=2026-11-26&returnDateTo=2026-11-26&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/337344/224-boutique-hostel/?from=2026-11-23&to=2026-11-26&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 66.31,
+        "total_eur": 69.98,
         "outbound": "FR7235 \u00b7 05:55\u201310:35",
         "return": "FR7236 \u00b7 10:50\u201313:45"
       },
@@ -90,14 +57,14 @@
         "availability": 25,
         "cancellation": "If you cancel your booking before 23:59 19th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 19th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 66.31,
+      "flight_total_eur": 69.98,
       "stay_total_eur": 69.0,
-      "combined_total_eur": 139.81,
-      "budget_headroom_eur": 60.19,
+      "combined_total_eur": 143.48,
+      "budget_headroom_eur": 56.52,
       "room_type": "Standard 6 Bed Mixed Dorm Ensuite",
       "outbound": "FR7235 \u00b7 05:55\u201310:35",
       "return": "FR7236 \u00b7 10:50\u201313:45",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Seville",
@@ -112,7 +79,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=SVQ&isReturn=true&departureDateFrom=2026-11-23&departureDateTo=2026-11-23&returnDateFrom=2026-11-27&returnDateTo=2026-11-27&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/312246/room-salvador/?from=2026-11-23&to=2026-11-27&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 86.98,
+        "total_eur": 92.98,
         "outbound": "FR2703 \u00b7 14:10\u201318:00",
         "return": "FR2702 \u00b7 22:15\u201300:10"
       },
@@ -122,15 +89,15 @@
         "availability": 1,
         "cancellation": "If you cancel your booking before 23:59 19th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 19th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 86.98,
+      "flight_total_eur": 92.98,
       "stay_total_eur": 67.32,
-      "combined_total_eur": 154.3,
-      "budget_headroom_eur": 45.7,
+      "combined_total_eur": 160.3,
+      "budget_headroom_eur": 39.7,
       "mandatory_tax_eur": 0.0,
       "room_type": "Basic 8 Bed Mixed Dorm Ensuite",
       "outbound": "FR2703 \u00b7 14:10\u201318:00",
       "return": "FR2702 \u00b7 22:15\u201300:10",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Lisbon",
@@ -146,9 +113,9 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=LIS&isReturn=true&departureDateFrom=2026-11-21&departureDateTo=2026-11-21&returnDateFrom=2026-11-24&returnDateTo=2026-11-24&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/340870/lisbon-gambori/?from=2026-11-21&to=2026-11-24&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 57.98,
+        "total_eur": 60.98,
         "outbound": "FR7138 \u00b7 17:15\u201320:05",
-        "return": "FR673 \u00b7 20:15\u201323:05"
+        "return": "FR651 \u00b7 09:35\u201312:25"
       },
       "accommodation": {
         "total_eur": 95.0,
@@ -156,14 +123,14 @@
         "availability": 2,
         "cancellation": "If you cancel your booking before 23:59 17th Nov 2026 (WET) your deposit will be refunded to your payment card. If you cancel after 23:59 17th Nov 2026 (WET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 57.98,
+      "flight_total_eur": 60.98,
       "stay_total_eur": 95.0,
-      "combined_total_eur": 164.98,
-      "budget_headroom_eur": 35.02,
+      "combined_total_eur": 167.98,
+      "budget_headroom_eur": 32.02,
       "room_type": "Standard Double Bed Private Shared Bathroom",
       "outbound": "FR7138 \u00b7 17:15\u201320:05",
-      "return": "FR673 \u00b7 20:15\u201323:05",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "return": "FR651 \u00b7 09:35\u201312:25",
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Alcal\u00e1, Tenerife",
@@ -178,7 +145,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=TFS&isReturn=true&departureDateFrom=2026-11-16&departureDateTo=2026-11-16&returnDateFrom=2026-11-19&returnDateTo=2026-11-19&budget=200",
       "stay_url": "https://www.hostelworld.com/bed-and-breakfasts/p/283048/pension-alcala/?from=2026-11-16&to=2026-11-19&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 77.98,
+        "total_eur": 78.98,
         "outbound": "FR5557 \u00b7 06:25\u201310:45",
         "return": "FR7120 \u00b7 11:50\u201316:10"
       },
@@ -188,15 +155,15 @@
         "availability": 2,
         "cancellation": "If you cancel your booking before 23:59 12th Nov 2026 (WET) your deposit will be refunded to your payment card. If you cancel after 23:59 12th Nov 2026 (WET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 77.98,
+      "flight_total_eur": 78.98,
       "stay_total_eur": 100.05,
-      "combined_total_eur": 178.03,
-      "budget_headroom_eur": 21.97,
+      "combined_total_eur": 179.03,
+      "budget_headroom_eur": 20.97,
       "mandatory_tax_eur": 0.0,
       "room_type": "Standard Single Private Shared Bathroom",
       "outbound": "FR5557 \u00b7 06:25\u201310:45",
       "return": "FR7120 \u00b7 11:50\u201316:10",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "M\u00e1laga",
@@ -211,7 +178,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=AGP&isReturn=true&departureDateFrom=2026-11-18&departureDateTo=2026-11-18&returnDateFrom=2026-11-21&returnDateTo=2026-11-21&budget=200",
       "stay_url": "https://www.hostelworld.com/pwa/hosteldetails.php/The-Lights-Hostel/Malaga/90359?from=2026-11-18&to=2026-11-21&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 71.98,
+        "total_eur": 69.98,
         "outbound": "FR7044 \u00b7 18:35\u201322:35",
         "return": "FR7047 \u00b7 06:10\u201308:20"
       },
@@ -221,15 +188,15 @@
         "availability": 23,
         "cancellation": "If you cancel your booking before 23:59 16th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 16th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 71.98,
+      "flight_total_eur": 69.98,
       "stay_total_eur": 102.51,
-      "combined_total_eur": 174.49,
-      "budget_headroom_eur": 25.51,
+      "combined_total_eur": 172.49,
+      "budget_headroom_eur": 27.51,
       "mandatory_tax_eur": 0.0,
       "room_type": "Standard 10 Bed Mixed Dorm",
       "outbound": "FR7044 \u00b7 18:35\u201322:35",
       "return": "FR7047 \u00b7 06:10\u201308:20",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Las Palmas, Gran Canaria",
@@ -244,25 +211,25 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=LPA&isReturn=true&departureDateFrom=2026-11-23&departureDateTo=2026-11-23&returnDateFrom=2026-11-26&returnDateTo=2026-11-26&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/328692/las-palmas-nest-hostel/?from=2026-11-23&to=2026-11-26&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 48.98,
+        "total_eur": 54.98,
         "outbound": "FR94 \u00b7 15:40\u201320:00",
         "return": "FR7127 \u00b7 10:50\u201315:10"
       },
       "accommodation": {
         "total_eur": 73.57,
         "room_type": "Standard 12 Bed Mixed Dorm",
-        "availability": 12,
+        "availability": 11,
         "cancellation": "If you cancel your booking before 00:59 24th Oct 2026 (WEST) your deposit will be refunded to your payment card. If you cancel after 00:59 24th Oct 2026 (WEST) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 48.98,
+      "flight_total_eur": 54.98,
       "stay_total_eur": 73.57,
-      "combined_total_eur": 122.55,
-      "budget_headroom_eur": 77.45,
+      "combined_total_eur": 128.55,
+      "budget_headroom_eur": 71.45,
       "mandatory_tax_eur": 0.0,
       "room_type": "Standard 12 Bed Mixed Dorm",
       "outbound": "FR94 \u00b7 15:40\u201320:00",
       "return": "FR7127 \u00b7 10:50\u201315:10",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Arrecife, Lanzarote",
@@ -277,7 +244,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=ACE&isReturn=true&departureDateFrom=2026-11-24&departureDateTo=2026-11-24&returnDateFrom=2026-11-28&returnDateTo=2026-11-28&budget=200",
       "stay_url": "https://www.hostelworld.com/pwa/hosteldetails.php/La-Casita-de-Arrecife/Arrecife/339617?from=2026-11-24&to=2026-11-28&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 52.98,
+        "total_eur": 55.98,
         "outbound": "FR5910 \u00b7 16:00\u201320:10",
         "return": "FR7200 \u00b7 07:10\u201311:20"
       },
@@ -287,15 +254,15 @@
         "availability": 4,
         "cancellation": "If you cancel your booking before 23:59 22nd Nov 2026 (WET) your deposit will be refunded to your payment card. If you cancel after 23:59 22nd Nov 2026 (WET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 52.98,
+      "flight_total_eur": 55.98,
       "stay_total_eur": 104.0,
-      "combined_total_eur": 156.98,
-      "budget_headroom_eur": 43.02,
+      "combined_total_eur": 159.98,
+      "budget_headroom_eur": 40.02,
       "mandatory_tax_eur": 0.0,
       "room_type": "Basic 4 Bed Female Dorm",
       "outbound": "FR5910 \u00b7 16:00\u201320:10",
       "return": "FR7200 \u00b7 07:10\u201311:20",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     },
     {
       "destination": "Valencia",
@@ -310,7 +277,7 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=VLC&isReturn=true&departureDateFrom=2026-11-23&departureDateTo=2026-11-23&returnDateFrom=2026-11-26&returnDateTo=2026-11-26&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/73821/river-hostel/?from=2026-11-23&to=2026-11-26&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 119.29,
+        "total_eur": 129.46,
         "outbound": "FR1740 \u00b7 20:50\u201300:30",
         "return": "FR1739 \u00b7 10:30\u201312:20"
       },
@@ -320,17 +287,17 @@
         "availability": 10,
         "cancellation": "If you cancel your booking before 23:59 20th Nov 2026 (CET) your deposit will be refunded to your payment card. If you cancel after 23:59 20th Nov 2026 (CET) or in the event of a no-show, your deposit will not be refunded and the total of the first night's accommodation will be charged to your payment card, unless otherwise stated (see 'Things to Note' information). Please note that cancellations must be made directly within your booking in My Account."
       },
-      "flight_total_eur": 119.29,
+      "flight_total_eur": 129.46,
       "stay_total_eur": 65.7,
-      "combined_total_eur": 184.99,
-      "budget_headroom_eur": 15.01,
+      "combined_total_eur": 195.16,
+      "budget_headroom_eur": 4.84,
       "mandatory_tax_eur": 0.0,
       "room_type": "Basic 12 Bed Mixed Dorm",
       "outbound": "FR1740 \u00b7 20:50\u201300:30",
       "return": "FR1739 \u00b7 10:30\u201312:20",
-      "checked_at": "2026-10-18T12:35:16+00:00"
+      "checked_at": "2026-10-19T15:33:20+00:00"
     }
   ],
   "source_errors": [],
-  "checked_at": "2026-10-18T12:35:16+00:00"
+  "checked_at": "2026-10-19T15:33:20+00:00"
 }
