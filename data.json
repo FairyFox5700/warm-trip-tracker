@@ -13,27 +13,27 @@
       "flight_url": "https://www.ryanair.com/ie/en/fare-finder?originIata=DUB&destinationIata=LPA&isReturn=true&departureDateFrom=2026-11-23&departureDateTo=2026-11-23&returnDateFrom=2026-11-26&returnDateTo=2026-11-26&budget=200",
       "stay_url": "https://www.hostelworld.com/hostels/p/328692/las-palmas-nest-hostel/?from=2026-11-23&to=2026-11-26&guests=1&currency=EUR",
       "flight": {
-        "total_eur": 99.98,
+        "total_eur": 109.98,
         "outbound": "FR94 \u00b7 15:40\u201320:00",
         "return": "FR7127 \u00b7 10:50\u201315:10"
       },
       "accommodation": {
-        "total_eur": 59.28,
-        "room_type": "Standard 6 Bed Mixed Dorm",
-        "availability": 5,
+        "total_eur": 56.0,
+        "room_type": "Standard 12 Bed Mixed Dorm",
+        "availability": 10,
         "cancellation": "This property has a 30 day cancellation policy. Failure to cancel within this time will result in a cancellation charge equal to the first night of your stay, unless otherwise stated (see 'Things to Note' information)."
       },
-      "flight_total_eur": 99.98,
-      "stay_total_eur": 59.28,
-      "combined_total_eur": 159.26,
-      "budget_headroom_eur": 40.74,
+      "flight_total_eur": 109.98,
+      "stay_total_eur": 56.0,
+      "combined_total_eur": 165.98,
+      "budget_headroom_eur": 34.02,
       "mandatory_tax_eur": 0.0,
-      "room_type": "Standard 6 Bed Mixed Dorm",
+      "room_type": "Standard 12 Bed Mixed Dorm",
       "outbound": "FR94 \u00b7 15:40\u201320:00",
       "return": "FR7127 \u00b7 10:50\u201315:10",
-      "checked_at": "2026-11-12T16:46:19+00:00"
+      "checked_at": "2026-11-13T16:14:33+00:00"
     }
   ],
   "source_errors": [],
-  "checked_at": "2026-11-12T16:46:19+00:00"
+  "checked_at": "2026-11-13T16:14:33+00:00"
 }
